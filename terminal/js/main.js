@@ -101,6 +101,10 @@ function commander(cmd) {
     case "social":
       loopLines(social, "color2 margin", 80);
       break;
+    case "resume":
+      loopLines(resume, "color2 margin", 80);
+      break;
+    
     case "secret":
       liner.classList.add("password");
       pw = true;

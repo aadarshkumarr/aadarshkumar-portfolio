@@ -1,6 +1,7 @@
 var linkedin = "https://www.linkedin.com/in/aadarsh-kumar-ba23b9162/";
 var github = "https://github.com/Aadarshk01";
 var email = 'mailto:aadarshkm01@gmail.com';
+var resume = "https://drive.google.com/file/d/118or04Y4Kn-9fuxz_jTOU0xLhcJl8Fdd/view?usp=sharing";
 
 whois = [
   "<br>",
@@ -23,6 +24,13 @@ social = [
   'github         <a href="' + github + '" target="_blank">github/aadarshkumar' + "</a>",
   "<br>"
 ];
+
+resume = [
+  "<br>",
+  'resume       <a href="' + resume + '" target="_blank">resume/aadarshkumar' + "</a>",
+  "<br>"
+];
+
 
 secret = [
   "<br>",
@@ -47,6 +55,7 @@ help = [
   '<span class="command">help</span>           You obviously already know what this does',
   '<span class="command">email</span>          Send an email to Aadarsh Kumar',
   '<span class="command">clear</span>          Clear terminal',
+  '<span class="command">resume</span>         Display the Resume',
   '<span class="command">banner</span>         Display the header',
   "<br>",
 ];
